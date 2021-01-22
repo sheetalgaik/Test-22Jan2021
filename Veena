@@ -10,4 +10,13 @@ Veena A Poojari
 8. c.	Software Components and their dependency issues and a. light weight
 9. b.	http://your-jenkins-URL-with-port/github-webhook/
 10. b.	-p 80:8080 
-11. 
+11. a.	Terraform, d.	Docker
+12. c.	If possible, shut down Jenkins while backing it up
+13. b.	Jenkins User needs to have correct folder permissions, c.	There is no difference between Jenkins on Windows & Linux
+14. c.	A set of Jobs which define a certain workflow & dependency, a.	A bunch of jobs that listen to the same message queue
+15. c.	Deploy to Container
+16. b.	It’s a light weight Jenkins worker
+17. b.	Git
+18. c.	JENKINS_HOME
+19. b.	docker volume create volume_name
+20. c.	Permission for jenkins user to run docker commands, d.	Docker plugin
